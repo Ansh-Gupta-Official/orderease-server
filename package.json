@@ -1,0 +1,24 @@
+{
+  "name": "orderease",
+  "version": "1.0.0",
+  "description": "a restrauant management app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ansh-Gupta-Official/Restaurant_management_App.git"
+  },
+  "author": "ansh, krishna, aryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ansh-Gupta-Official/Restaurant_management_App/issues"
+  },
+  "homepage": "https://github.com/Ansh-Gupta-Official/Restaurant_management_App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0"
+  }
+}
