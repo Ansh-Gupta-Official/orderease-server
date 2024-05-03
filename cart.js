@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const  Cart  = require('./model/cartModel'); // Assuming you have a User model defined in your auth module
 
 const cartRoute = express.Router();
 
