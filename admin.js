@@ -2,7 +2,6 @@ const express = require('express');
 const adminRoute=express.Router();
 const mongoose=require('mongoose');
 const Product  = require('./model');
-const Cart=require('./model/cartModel');
 // API Route to Save Product Data
 adminRoute.post('/admin/saveItem', async (req, res) => {
   try {
