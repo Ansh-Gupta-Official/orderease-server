@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const  Cart  = require('./model/cartModel');
 
 const cartRoute = express.Router();
 
