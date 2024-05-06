@@ -19,7 +19,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB database
-mongoose.connect('mongodb+srv://eanshgupta:mongodbanshgupta@cluster0.kndmqxp.mongodb.net/orderease?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Database connection successful'))
   .catch((error) => {
     console.error('Error connecting to database:', error);
